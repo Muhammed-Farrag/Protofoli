@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Muhammed Farrag — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Muhammed Farrag — AI & Software Engineering student. Projects in ML, Java, JavaFX, data analysis." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Muhammed Farrag</h1>
+        <p class="tag">AI & Software Engineering · Machine Learning · Data Analysis</p>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <button id="downloadResume" class="btn gold">Download CV</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h2>Hi — I'm Muhammed</h2>
+          <p>
+            A motivated AI & Software Engineering student (Alamein International University)
+            passionate about building ML systems, image-processing apps and backend solutions.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn">See Projects</a>
+            <a href="#contact" class="btn outline">Get in Touch</a>
+          </div>
+          <div class="meta">
+            <span>Location: Egypt</span>
+            <span>Phone: +201125766454</span>
+            <span>Email: mohamed.frage19@gmail.com</span>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="avatar">MF</div>
+          <div class="links">
+            <a href="http://www.linkedin.com/in/muhammed-farrag-0102b427b" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/Eng-MuhammedFarrag" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h3>About</h3>
+      <p>
+        Highly motivated AI & Software Engineering student with hands-on experience in machine learning,
+        image processing, Java & Python development, and data analysis.
+      </p>
+      <div class="two-col">
+        <div>
+          <h4>Education</h4>
+          <p><strong>Bachelor of Artificial Intelligence Science</strong><br>Alamein International University (2022 - 2026).</p>
+        </div>
+        <div>
+          <h4>Profile</h4>
+          <p>Programming: Python, Java, C++, R, PHP, SQL. Tools: VS Code, Jupyter, Anaconda, Google Colab.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt-bg">
+      <div class="container">
+        <h3>Selected Projects</h3>
+        <div class="projects-grid">
+          <article class="card">
+            <h4>Grand Egyptian Museum Desktop App</h4>
+            <p>Java & JavaFX application with tour details, bookings and chatbot features.</p>
+            <span class="tag">Java • JavaFX</span>
+          </article>
+
+          <article class="card">
+            <h4>STC TV — Data Analysis & Recommendation</h4>
+            <p>Analyzed viewership (2017–2018) and built a recommendation approach to improve content delivery.</p>
+            <span class="tag">Python • Data Analysis</span>
+          </article>
+
+          <article class="card">
+            <h4>Neural Network — Flower Classification</h4>
+            <p>CNN on TPU for flower classification; migrated from FC to CNN for robust feature extraction.</p>
+            <span class="tag">TensorFlow • CNN</span>
+          </article>
+
+          <article class="card">
+            <h4>Image Processing App</h4>
+            <p>Python app using OpenCV and PIL for loading, enhancing and segmenting images (customtkinter UI).</p>
+            <span class="tag">Python • OpenCV</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section container">
+      <h3>Experience</h3>
+      <div class="timeline">
+        <div class="item">
+          <h4>Freelance AI Contractor — Outlier AI</h4>
+          <span class="date">2024 - Present</span>
+          <p>Contributed to model improvement, coding and data analysis.</p>
+        </div>
+
+        <div class="item">
+          <h4>COLD CALLER AGENT — Real Estate</h4>
+          <span class="date">2023 - 2024</span>
+          <p>Client conversations, lead qualification and property condition gathering.</p>
+        </div>
+
+        <div class="item">
+          <h4>ITI Internship</h4>
+          <span class="date">2024</span>
+          <p>MySQL optimization, JavaFX museum app, multi-language AI chatbot and preprocessing for ML.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt-bg">
+      <div class="container">
+        <h3>Skills & Certifications</h3>
+        <div class="skills-grid">
+          <div>
+            <h4>Technical</h4>
+            <ul>
+              <li>Machine Learning • LLMs • NLP</li>
+              <li>Python, Java, C++, R, PHP, SQL</li>
+              <li>Data Analysis, Visualization, Data Mining</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Certifications</h4>
+            <ul>
+              <li>Networks and Deep Learning — Nov 2024</li>
+              <li>Fundamentals of Digital Image & Video Processing — May 2024</li>
+              <li>Machine Learning for All — Mar 2024</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h3>Contact</h3>
+      <p>If you'd like to collaborate or see more, drop a message.</p>
+      <form id="contactForm" class="contact-form">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <textarea name="message" rows="5" placeholder="Message" required></textarea>
+        <button type="submit" class="btn gold">Send Message</button>
+      </form>
+      <p class="small">Phone: +201125766454 • Email: mohamed.frage19@gmail.com</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Muhammed Farrag — Built with care.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
